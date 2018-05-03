@@ -1,0 +1,66 @@
+/*Dropdown Menü CSS Script*/
+
+ul#navigation_main
+{
+	color:#fff;
+	font-size:13pt;
+	padding: 5px 0px 5px 40px;
+	
+
+}
+
+ul#navigation_main li
+{
+	float:left;
+	position:relative;
+	list-style-type: none;
+}
+
+ul#navigation_main li a
+{
+	color:#fff;
+	text-decoration: none;
+}
+
+ul#navigation_main li a:hover
+{
+	color:#cccccc;
+	text-decoration: none;
+}
+
+.block
+{
+	padding-right: 40px;
+	display: block;
+	float: left;
+}
+
+ul#navigation_main li ul.dropdown_navi
+{
+	color: #fff;
+	position:absolute;
+	
+	background-color:#666666;
+	top:22px;
+	left: -5px;
+	padding: 5px 5px 5px 5px;
+	width:100px;
+	font-size:10pt;
+	border-radius:4px;
+}
+
+ul#navigation_main li ul li
+{
+	display: block;
+	float: none;
+}
+
+ul#navigation_main  li>ul
+{
+	display:none;
+}
+
+ul#navigation_main li:hover>ul
+{
+	display:block;
+}

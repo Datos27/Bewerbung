@@ -1,0 +1,176 @@
+/*html stylesheet homepage*/
+/*author Carolina Singh*/
+
+@import url("navigation_dropdown_menue.css");
+
+body
+{
+
+background: url(images/back1.png)no-repeat;
+background-color:#fff;
+background-position: center;
+background-position: top;
+font-family: verdana;
+font-size: 8pt;
+
+}
+
+a
+{
+color: #558855;
+}
+
+a:hover
+{
+color: #cc235c;
+}
+
+a img
+{
+}
+/*root_site Setup*/
+
+
+#root_site
+{
+margin-top:40px;
+width: 1024px;
+height: auto;
+background-color: #fff;
+	
+	/*padding:3px 3px 3px 3px;
+	border-radius: 10px;*/
+
+
+}
+
+	#head_main_container
+	{
+		background-color:#fff ;
+		width: 100%;
+		height: 240px;
+		
+		
+		
+	}
+		.header_background
+		{
+			height:240px;
+			width:100%;
+			background:url(images/head.jpg) no-repeat;
+			background-position:center;
+			
+			
+		}
+	
+	#navi_main_container
+	{
+		background-color:#666666;
+		width: 100%;
+		height: 40px;
+		
+	}
+	
+		.navi_container
+		{
+		width:100%;
+		height:40px;
+		padding-top:0px;
+		
+		}
+		
+		
+	#content_main_container
+	{
+		background-color:#fff;
+		width: 100%;
+		height: auto;
+		float:left;
+		line-height: 1.4;
+		text-align: justify;
+	}
+		.content_left_main
+		{
+		width:70%;
+		height:auto;
+		background-color:#fff;
+		float:left;
+		
+		}
+		
+			.content_left_table
+			{
+				padding:10px 25px 10px 30px;
+			}
+		
+				.news_box
+				{
+					background-color:#fff;
+					padding:3px 3px 3px 3px;
+					border-radius: 10px;
+				}
+		
+		.content_right_main
+		{
+		width:30%;
+		height:auto;
+		background-color:#fFF;
+		float: right;
+		}
+			.content_right_table
+				{
+				padding:0px 40px 10px 15px;
+				border-left:dotted 1px #cccccc;
+				margin-top: 10px;
+				}
+				
+				.table_headline
+				{
+					font-size:14pt;
+					font-weight: bold;
+					color:#903d86;
+					padding-top: 0px;
+				}
+	#footer_main_container
+	{
+		background-color:#333333;
+		width: 100%;
+		height: auto;
+		float:left;
+	}
+		
+		#footer_container
+		{
+		
+		}
+		
+		.footer_table_setup
+		{
+		font-family:arial;
+		font-size: 10pt;
+		text-align:center;
+		
+		}
+		
+		.footer_table_setup td
+		{
+		height:5px;
+		width: 180px;
+		padding-top: 0px;
+		padding-bottom:-10px;
+		padding-left:35px;
+		padding-right:20px;
+		
+	
+		}
+		
+		.footer_table_setup a
+		{
+		color: #fff; 
+		text-decoration: underline;
+		}
+		
+		.footer_table_setup a:hover
+		{
+		color:#cccccc;
+		}
