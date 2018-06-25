@@ -1,0 +1,17 @@
+{
+"person":
+  [{
+    "name": "Max Mustermann",
+    "buchinbesitz": ["Harry Potter", "Der Steppenwolf"],
+    "wunschbuch": ["Der Herr der Ringe", "Siddartha"],
+    "standort": "Koeln",
+    "mail": "max_mustermann@aol.com"
+  },
+  {
+    "name": "Marie Musterfrau",
+    "buchinbesitz": ["Der Herr der Ringe", "Alice im Wunderland"],
+    "wunschbuch": ["Der Augensammler", "Alidan"],
+    "standort": "Koeln",
+    "mail": "marie_musterfrau@web.de"
+  }]
+}
